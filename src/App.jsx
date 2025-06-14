@@ -13,7 +13,7 @@ function Board() {
     status = "Winner: " + winner;
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O");
-  }
+  } 
 
   function handleClick(i){
     if(squares[i] || calculateWinner(squares)){
