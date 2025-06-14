@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body{
+  background-color: #222831;
+}
+
+h2{
+  color: #EEEEEE;
+}
+
+.container{
+  text-align: center;
+}
+
+.square{
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 20px;
+  color: #9faabd;
+  background-color: hsla(216, 18%, 16%, 0);
+  margin: 1px;
+  border: 2px solid #00ADB5;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+footer{
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 500;
+  color: hsla(0, 0%, 93%, 0.13);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.status{
+  font-family: Arial;
+  font-weight: 600;
+  color: #00ADB5;
+  text-align: center;
+  margin-top: 50px;
+  margin: 50px auto 0px auto;
+  background-color: #1f242b;
+  max-width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+  
+}
